@@ -49,7 +49,7 @@ public class QuestionActivity2 extends AppCompatActivity {
 
         questions.add(q1);
         questions.add(q2);
-        questions.add(q3);
+        questions.add(q3);//
         questions.add(q4);
 
 
