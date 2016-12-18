@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "17235931315",
+    "firebase_url": "https://cross-word-a859f.firebaseio.com",
+    "project_id": "cross-word-a859f",
+    "storage_bucket": "cross-word-a859f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17235931315:android:798c69234fe8cc07",
+        "android_client_info": {
+          "package_name": "minhal.edu.khaled.wordcross"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17235931315-se2rh7vjobm5sur9n3bmfcl9aq0im9uk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "minhal.edu.khaled.wordcross",
+            "certificate_hash": "0F232B164571B08067949FB865B8E36165D010FA"
+          }
+        },
+        {
+          "client_id": "17235931315-udlvt8vjs3pvqaedbevbnbeqaarr4vuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKR0Z2VcNgHIoSHEAX77xEZqWojG8QAVw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17235931315-udlvt8vjs3pvqaedbevbnbeqaarr4vuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

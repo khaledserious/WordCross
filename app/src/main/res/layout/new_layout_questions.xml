@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvQuestion"
+        android:layout_marginTop="57dp"
+
+        android:text="........"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivQuestion"
+        android:visibility="gone"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/questionLetterContainer"
+        android:layout_below="@id/tvQuestion"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt1"
+            android:onClick="clear"
+            android:layout_marginBottom="147dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:layout_toRightOf="@+id/tvQuestion"
+            android:layout_toEndOf="@+id/tvQuestion" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt2"
+            android:onClick="clear"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/btn3"
+            android:layout_toRightOf="@+id/btn3"
+            android:layout_toEndOf="@+id/btn3" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt3"
+            android:onClick="clear"
+            android:layout_alignTop="@+id/btn1"
+            android:layout_toRightOf="@+id/btn1"
+            android:layout_toEndOf="@+id/btn1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt4"
+            android:onClick="clear"
+            android:layout_alignTop="@+id/btn2"
+            android:layout_toRightOf="@+id/btn2"
+            android:layout_toEndOf="@+id/btn2"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt5"
+            android:onClick="clear"
+            android:layout_alignTop="@+id/btn4"
+            android:layout_toRightOf="@+id/btn4"
+            android:layout_toEndOf="@+id/btn4"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/bt6"
+            android:onClick="clear"
+            android:layout_alignTop="@+id/btn4"
+            android:layout_toRightOf="@+id/btn4"
+            android:layout_toEndOf="@+id/btn4"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="F"
+            android:onClick="letterClicked"
+            android:id="@+id/btn1"
+            android:layout_marginBottom="147dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tvQuestion"
+            android:layout_toEndOf="@+id/tvQuestion" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="letterClicked"
+            android:text="M"
+            android:id="@+id/btn4"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/btn3"
+            android:layout_toRightOf="@+id/btn3"
+            android:layout_toEndOf="@+id/btn3" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="R"
+            android:id="@+id/btn2"
+            android:onClick="letterClicked"
+            android:layout_alignTop="@+id/btn1"
+            android:layout_toRightOf="@+id/btn1"
+            android:layout_toEndOf="@+id/btn1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="O"
+            android:id="@+id/btn3"
+            android:onClick="letterClicked"
+            android:layout_alignTop="@+id/btn2"
+            android:layout_toRightOf="@+id/btn2"
+            android:layout_toEndOf="@+id/btn2"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="D"
+            android:onClick="letterClicked"
+            android:id="@+id/btn5"
+            android:layout_alignTop="@+id/btn4"
+            android:layout_toRightOf="@+id/btn4"
+            android:layout_toEndOf="@+id/btn4"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="T"
+            android:onClick="letterClicked"
+            android:id="@+id/btn6"
+            android:layout_alignTop="@+id/btn5"
+            android:layout_toRightOf="@+id/btn5"
+            android:layout_toEndOf="@+id/btn5"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="S"
+            android:id="@+id/btn7"
+            android:onClick="letterClicked"
+            android:layout_below="@+id/btn2"
+            android:layout_alignLeft="@+id/btn1"
+            android:layout_alignStart="@+id/btn1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="E"
+            android:onClick="letterClicked"
+            android:id="@+id/btn8"
+            android:layout_below="@+id/btn2"
+            android:layout_toRightOf="@+id/btn1"
+            android:layout_toEndOf="@+id/btn1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="A"
+            android:onClick="letterClicked"
+            android:id="@+id/btn9"
+            android:layout_below="@+id/btn2"
+            android:layout_toRightOf="@+id/btn8"
+            android:layout_toEndOf="@+id/btn8"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="K"
+            android:id="@+id/btn10"
+            android:onClick="letterClicked"
+            android:layout_alignBottom="@+id/btn8"
+            android:layout_toLeftOf="@+id/btn6"
+            android:layout_toStartOf="@+id/btn6"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="G"
+            android:onClick="letterClicked"
+            android:id="@+id/btn11"
+            android:layout_alignBottom="@+id/btn9"
+            android:layout_toRightOf="@+id/btn3"
+            android:layout_toEndOf="@+id/btn3"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="letterClicked"
+            android:text="Z"
+            android:id="@+id/btn12"
+            android:layout_below="@+id/btn5"
+            android:layout_toRightOf="@+id/btn5"
+            android:layout_toEndOf="@+id/btn5"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#845422"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
